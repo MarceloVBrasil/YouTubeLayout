@@ -1,0 +1,497 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@font-face {
+    font-family: 'YT', sans-serif;
+    src: url("../fonts/YouTubeSansLight.otf");
+}
+
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+body
+{
+    overflow: hidden;
+}
+
+html
+{
+    width: 0px;
+    height: 0px;
+}
+
+/***********************EXTRAS*****************************************/
+.line-separator
+{
+    margin-top: 10px;
+    border-bottom: 1px solid lightgrey;
+}
+
+.center
+{
+    margin-top: -15px;
+    margin-left: 250px;
+    width: 2000px;
+}
+
+/*******************************TOP************************************************/
+
+.top
+{
+    position: relative;
+    margin-top: 0px;
+    width: 2000px;
+    padding: 12px 20px;
+    border: 1px solid lightgray;
+    height: 30px;
+}
+
+.top-left
+{
+    position: absolute;
+    float: left;
+    font-size: 10px;
+}
+
+.youtube-location
+{
+    position: absolute;
+    margin-top: -7px;
+    margin-left: 150px;
+    color: rgb(116, 116, 116);
+}
+
+
+.left-icon /*3 horizontal bars*/
+{
+    position: absolute;
+    float: left;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.left-image /*logo*/
+{
+    position: absolute;
+    width: 100%;
+    margin-left: 50px;
+    margin-top: -13px;
+    width: 100px;
+    height: 50px;
+    cursor: pointer;
+}
+
+.top-search /*search box*/
+{
+    position: absolute;
+    padding:  10px 10px;
+    width: 550px;
+    margin-left: 420px;
+    margin-top: -6px;
+    outline-color: blue;
+    font-size: 16px;
+    float: left;
+}
+
+.search-button /*magnifying glass*/
+{
+    position: absolute;
+    padding:  12px 27px;
+    float: left;
+    margin-top: -6px;
+    margin-left: 970px;
+    background-color: rgb(240, 240, 240);
+    border: 1px solid lightgrey;
+    cursor: pointer;
+}
+
+.top-mic  /* DO SHADOW */
+{
+    position: absolute;
+    float: left;
+    margin-top: 6px;
+    margin-left: 1070px;
+    font-size: 20px;
+    cursor: pointer;
+
+}
+
+.top-th /*9 dots*/
+{
+    position: absolute;
+    float: left;
+    margin-left: 1300px;
+    margin-top: -3px;
+    font-size: 30px !important;
+    cursor: pointer;
+}
+
+.top-ellips /*3 vertical dots*/
+{
+    position: absolute;
+    float: left;
+    margin-left: 50px;
+    font-size: 25px;
+    margin-top: -1px;
+    margin-left: 1350px;
+    cursor: pointer;
+}
+
+.top-login /*top login button*/
+{
+    position: absolute;
+    height: 40px;
+    width: 120px;
+    margin-left: 1370px;
+    margin-top: -4px;
+    padding: 10px 20px;
+    color: blue;
+    border: 1px solid blue;
+    background-color: white;
+    cursor: pointer;
+}
+
+.user-login /*user-icon*/
+{
+    color: blue;
+    font-size: 20px !important;
+    float: left;
+    margin-right: 5px;
+    margin-top: -3px;
+}
+
+/*******************************SIDE************************************************/
+
+.side /*side items box*/
+{
+    overflow: hidden;
+    overflow-y: scroll;
+    width: 248px;
+    height: 840px;
+    float: left;
+    margin-top: 0px;
+    margin-left: 0px;
+    scrollbar-width: none;
+}
+
+.side:hover
+{
+    scrollbar-width: thin;
+}
+
+
+.active-side-item-field /*only for the home field*/
+{
+    width: 250px;
+    padding: 13px 10px;
+    color: rgb(17, 17, 17);
+    background-color: rgb(217, 217, 217);
+    font-weight: bold;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.active-side-item-field:hover
+{
+    background-color: rgb(210, 210, 210);
+}
+
+.side-item-field /*for all fields on the side, but home*/
+{
+    width: 250px;
+    padding: 13px 10px;
+    color: rgb(17, 17, 17);
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.side-item-field:hover
+{
+    background-color: rgb(242, 242, 242);
+}
+
+.side-item /*all side items*/
+{
+    font-size: 18px;
+    margin-left: 5px;
+    margin-right: 15px;
+}
+
+.side-item-spotlight /*all side items*/
+{
+    color: red;
+    font-size: 18px;
+    margin-left: 5px;
+    margin-right: 15px;
+}
+
+
+.side-item-image /*only for video-library, settings and report history*/
+{
+    width: 18px;
+    margin-top: 0px;
+    margin-left: 5px;
+    margin-right: 15px;
+}
+
+.side-item-shorts /*only for shorts*/
+{
+    width: 15px;
+    margin-top: 0px;
+    margin-left: 5px;
+    margin-right: 15px;
+    background-color: lightgrey;
+}
+
+.sign-in-side-text
+{
+    width: 100%;
+    max-width: 170px;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.side-login /*side login button*/
+{
+    float: left;
+    margin-left: 20px;
+    margin-top: -4px;
+    padding: 10px 20px;
+    color: blue;
+    border: 1px solid blue;
+    background-color: white;
+    cursor: pointer;
+}
+
+.best-of-youtube-side-text
+{
+    color: rgb(96, 96, 96);
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+/*******************************CENTER************************************************/
+
+.theme-content-buttons-container
+{
+    border: 1px solid lightgrey;
+    width: 100%;
+    border-left: none;
+    border-right: none;
+    margin-left: 250px;
+    margin-top: -1px;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.active
+{
+    background-color: black;
+    color: white;
+}
+
+.theme-content-button-all
+{
+    
+    height: 35px;
+    min-width: 55px;
+    width: auto;
+    margin-top: 10px;
+    margin-left: 15px;
+    margin-right: 0px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.theme-content-button
+{
+    margin-top: 10px;
+    margin-left: 9px;
+    height: 35px;
+    padding: 2px 10px;
+    width: auto;
+    border-radius: 20px;
+    cursor: pointer;
+
+}
+
+.center-img
+{
+    background-image: url("../images/laptop.png");
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+    width: 500px;
+    margin-left: 630px;
+    margin-top: 0px;
+}
+
+.premium-logo
+{
+   width: 100%;
+   max-width: 400px;
+   margin-left: -630px;
+   margin-top: 15px;
+}
+
+.premium-text
+{
+    font-family: 'YT',sans-serif;
+    font-size: 25px;
+    margin-left: -580px;
+    margin-top: 10px;
+}
+
+.premium-button
+{
+    margin-left: -580px;
+    margin-top: 50px;
+    height: 40px;
+    width: 200px;
+    padding: 10px 20px;
+    color: blue;
+    color: white;
+    background-color: blue;
+    cursor: pointer;
+}
+
+.close-ad
+{
+    margin-top: -90px;
+    margin-right: -90px;
+    float: right;
+    color: grey;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.video-area
+{
+    margin-top: 40px;
+    background-color: rgb(249, 249, 249);
+    height: 350px;
+    padding: 55px 45px;
+    display: flex;
+    flex-direction: row; 
+}
+
+.video-item
+{
+    cursor: pointer;
+    width: 100%;
+    max-width: 285px;
+    height: 250px;
+    margin-right: 15px;
+    /* float: left; */
+}
+
+.video-ellips /* 3 dots*/
+{
+    float: right;
+    margin-right: -230px;
+    margin-top: 20px;
+}
+
+.thumbnail
+{
+    width: 100%;
+    max-width: 285px;
+    height: 150px;
+    cursor: pointer;
+}
+
+.video-time
+{
+    position: absolute;
+    padding: 5px;
+    background-color: black;
+    color: white;
+    font-size: 12px;
+    float: right;
+    margin-top: 125px;
+    margin-left: -55px;
+    border-radius: 3px;
+}
+
+.channel-icon
+{
+    width: 35px;
+    border-radius: 50%;
+    margin-top: 10px;
+}
+
+.channel-name
+{
+    color: rgb(98, 118, 154);
+    font-size: 11px;
+    margin-left: 40px;
+    margin-bottom: 3px;
+}
+
+.channel-name:hover
+{
+    color: black;
+}
+
+.video-description1
+{
+    font-size: 14px;
+    float: right;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 20px;
+    margin-right: 40px;;
+}
+
+.video-description2
+{
+    font-size: 14px;
+    float: right;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 20px;
+    margin-right: 40px;;
+}
+
+.video-description3
+{
+    font-size: 14px;
+    float: right;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 20px;
+    margin-right: 30px;;
+}
+
+.video-description4
+{
+    font-size: 14px;
+    float: right;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 20px;
+    margin-right: 30px;
+}
+
+.video-stats
+{
+    color: rgb(98, 118, 154);
+    font-size: 11px;
+    margin-left: 40px;
+}
+
+.dot
+{
+    font-size: 3px;
+    margin-bottom: 3px;
+    margin-left: 1px;
+}
