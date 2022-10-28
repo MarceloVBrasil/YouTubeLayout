@@ -230,7 +230,7 @@ html
     cursor: pointer;
 }
 
-.side-item-field:hover
+.side-item-field:hover:not(.active-side-item-field)
 {
     background-color: rgb(242, 242, 242);
 }
