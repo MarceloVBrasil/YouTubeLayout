@@ -44,7 +44,6 @@ html
     margin-top: 0px;
     max-width: 2000px;
     padding: 12px 20px;
-    border: 1px solid lightgray;
     height: 30px;
 }
 
@@ -111,11 +110,18 @@ html
 {
     position: absolute;
     float: left;
-    margin-top: 6px;
+    margin-top: -4px;
     margin-left: 1070px;
     font-size: 20px;
     cursor: pointer;
+    border: 10px solid transparent;
 
+}
+
+.top-mic:hover {
+    border: 10px solid hsl(0, 0%, 90%);
+    background-color: hsl(0, 0%, 90%);
+    border-radius: 50%;
 }
 
 .top-th /*9 dots*/
