@@ -41,5 +41,5 @@ window.onload = (e) => {
 };
 
 function goToMyWebsite() {
-  window.open("https://www.marcelo-brasil.com");
+  window.open("https://marcelobrasil.ca/");
 }
